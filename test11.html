@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Share</title>
+    <style>
+        h1 {
+            text-align: center;
+            background-color: #0422ce;
+            color: white;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+        }
+
+        table {
+            margin: auto;
+        }
+
+        #btnOk,
+        #btnCancel {
+            width: 100px;
+            height: 35px;
+            font-weight: bold;
+            color: white;
+            border-radius: 50px;
+        }
+
+        #btnOk {
+            background-color: green;
+        }
+
+        #btnCancel {
+            background-color: red;
+        }
+
+        hr {
+            background-color: #0422ce;
+            height: 10px;
+            border: none
+        }
+
+        div{
+            text-align: center;
+
+        }
+        #result{
+            color: red;
+            font-size: 50px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Money Share Let's lost our money</h1>
+    <table width="800">
+        <tr style="height: 50px;">
+            <td width="200" style="text-align: right; padding-right: 20px;">
+                Input Money
+            </td>
+            <td>
+                <input type="text" name="" id="money">Bath
+            </td>
+        </tr>
+        <tr style="height: 50px;">
+            <td width="200" style="text-align: right; padding-right: 20px;">
+                Input Person
+            </td>
+            <td>
+                <input type="text" name="" id="person"> ea
+            </td>
+        </tr>
+        <tr style="height: 50px;">
+            <td width="200" style="text-align: right; padding-right: 20px;">
+
+            </td>
+            <td>
+                <button id="btnOk">Okey</button>
+                <button id="btnCancel">Cancel</button>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <div>
+        Everyone got
+        <span id="result">
+            0.0
+        </span>
+        Bath
+    </div>
+
+    <script src="./js/script11.js"></script>
+</body>
+
+</html>
